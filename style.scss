@@ -1,0 +1,46 @@
+$red : hsl(0, 78%, 62%);
+$cyan : hsl(180, 62%, 55%);
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    max-width: 1440px;
+    background: rgb(248, 248, 248);
+}
+
+.top{
+    margin: 30px auto;
+    max-width: 700px;
+    
+    p{
+        max-width: 480px;
+        margin: 0 auto;
+        text-align: center;
+        font-weight: 300;
+        font-family: sans-serif;
+    }
+
+    h3{
+        text-align: center;
+        margin: 10px 0;
+        font-size: 2rem;
+        font-family: sans-serif;
+
+        &:first-child{
+            font-weight: 300;
+            color: rgb(143, 143, 143);
+            letter-spacing: 0;
+        }
+    }
+
+}
+
+.style{
+
+    >*{
+        background: yellow;
+    }
+}

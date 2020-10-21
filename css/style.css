@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  max-width: 1440px;
+  background: #f8f8f8;
+}
+
+.top {
+  margin: 30px auto;
+  max-width: 700px;
+}
+
+.top p {
+  max-width: 480px;
+  margin: 0 auto;
+  text-align: center;
+  font-weight: 300;
+  font-family: sans-serif;
+}
+
+.top h3 {
+  text-align: center;
+  margin: 10px 0;
+  font-size: 2rem;
+  font-family: sans-serif;
+}
+
+.top h3:first-child {
+  font-weight: 300;
+  color: #8f8f8f;
+  letter-spacing: 0;
+}
+
+.style > * {
+  background: yellow;
+}
